@@ -2,8 +2,8 @@
     ; (function () {
 
         const configuration = {
-            closeButton: true, //Показывать кнопку для закрытия
-            closeSave: true, //Сохранить закрытие баннера
+            closeButton: true, //Show button to close
+            closeSave: true, //Save banner close
         }
 
         const currentTimeZone = new Date().getTimezoneOffset() * 60 * 1000
