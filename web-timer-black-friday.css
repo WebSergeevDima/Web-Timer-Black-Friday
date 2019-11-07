@@ -1,0 +1,171 @@
+[data-timer-time] {
+    display: none;
+}
+.web-timer-black-friday {
+    background: #000;
+    padding: 5px 0 3px 0;
+    color: #f3cb38;
+    text-align: center;
+    font-family: Calibri,sans-serif;
+    position: relative;
+}
+
+.web-timer-black-friday__title {
+    text-transform: uppercase;
+    font-size: 22px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0;
+    line-height: 1;
+
+}
+.web-timer-black-friday__btn-more {
+    background: #f3cb38;
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 4px 20px 5px 20px;
+    transition: .3s;
+    vertical-align: top;
+    margin: 5px 0;
+}
+
+.web-timer-black-friday__btn-close {
+    background: #f3cb38;
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    transition: .3s;
+    vertical-align: top;
+    margin: 5px 0;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    cursor: pointer;
+    height: 14px;
+    width: 14px;
+    text-align: center;
+    line-height: 10px;
+}
+.web-timer-black-friday__btn-more:hover,
+.web-timer-black-friday__btn-close:hover {
+    text-decoration: none;
+    transition: .3s;
+    opacity: .8;
+}
+.web-timer-black-friday__timer {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+.web-timer-black-friday__timer-category {
+    display: inline-block;
+    vertical-align: middle;
+}
+.web-timer-black-friday__timer-category-title {
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    margin: 0 0 0 0;
+}
+.web-timer-black-friday__timer-block {
+    width: 15px;
+    height: 20px;
+    border-radius: 4px;
+    background: #f3cb38;
+    display: inline-block;
+    vertical-align: top;
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.web-timer-black-friday__timer-dotted {
+    width: 5px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+/* size */
+
+/* size-big */
+.web-timer-black-friday_size-big {
+    padding: 5px 0 3px 0;
+}
+.web-timer-black-friday_size-big .web-timer-black-friday__title {
+    font-size: 32px;
+}
+.web-timer-black-friday_size-big .web-timer-black-friday__btn-more {
+    font-size: 22px;
+    padding: 7px 20px 8px 20px;
+}
+.web-timer-black-friday_size-big .web-timer-black-friday__timer-block {
+    width: 20px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 28px;
+}
+.web-timer-black-friday_size-big .web-timer-black-friday__timer-category-title {
+    font-size: 12px;
+}
+
+/* templates */
+
+/* black-cyan  */
+.web-timer-black-friday_black-cyan {
+    color: cyan;
+}
+.web-timer-black-friday_black-cyan .web-timer-black-friday__timer-block {
+    background: cyan;
+}
+.web-timer-black-friday_black-cyan .web-timer-black-friday__btn-more {
+    background: cyan;
+}
+.web-timer-black-friday_black-cyan .web-timer-black-friday__btn-close {
+    background: cyan;
+    color: black;
+}
+
+/* black-cyan  */
+.web-timer-black-friday_red-white {
+    color: white;
+    background: red;
+}
+.web-timer-black-friday_red-white .web-timer-black-friday__timer-block {
+    background: white;
+}
+.web-timer-black-friday_red-white .web-timer-black-friday__btn-more {
+    background: white;
+}
+.web-timer-black-friday_red-white .web-timer-black-friday__btn-close {
+    background: white;
+    color: red;
+}
+
+/* black-white  */
+.web-timer-black-friday_black-white {
+    color: black;
+    background: white;
+}
+.web-timer-black-friday_black-white .web-timer-black-friday__timer-block {
+    color:white;
+    background: black;
+}
+.web-timer-black-friday_black-white .web-timer-black-friday__timer-category-title {
+    color: black;
+}
+.web-timer-black-friday_black-white .web-timer-black-friday__btn-more {
+    background: black;
+    color:white;
+}
+.web-timer-black-friday_black-white .web-timer-black-friday__btn-close {
+    background: black;
+    color: white;
+}
