@@ -1,4 +1,4 @@
-Adaptive timer for the site "Black Friday" using html, css, javascript. Easy to integrate and customize to fit your needs.
+daptive timer for the site "Black Friday" using html, css, javascript. Easy to integrate and customize to fit your needs.
 
 # Set date
 
@@ -40,9 +40,6 @@ You may or may not show the button to close the timer. At the same time, you can
 **In web-timer-black-friday.js**
 
 configuration = {
-
             closeButton: true, //Show button to close
-
             closeSave: true, //Save banner close
-
-        }
+            }
